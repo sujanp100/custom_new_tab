@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+font-family: 'Press Start 2P', cursive;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background:rgb(6, 9, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  color: white;
+  /* background: red; */
+  text-align: center;
+  font-size: 1.2rem;
+
+}
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.link-box {
+  color: white;
+  background: purple;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 2em;
+  width: 120px;
+  height: auto;
+}
+.link-box i {
+  font-size: 4em;
+}
+.link-container > a {
+  text-decoration: none;
+}
+.link-box strong {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
